@@ -1,4 +1,8 @@
 soong_namespace {
+    imports: [
+        "hardware/samsung_slsi-linaro/exynos",
+        "hardware/samsung_slsi-linaro/graphics",
+    ],
 }
 
 hidl_package_root {
